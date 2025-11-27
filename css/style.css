@@ -106,9 +106,20 @@ li.active .work-data{ display: flex; width: 100%; align-items: center; }
 .project p{ margin: 30px 0;}
 .project a{ display: inline-block; width: 214px; line-height: 51px; background: var(--db); color: var(--white); border-radius: 5px; text-align: center;}
 
+.teams{ margin-top: 50px;}
+.member{ box-shadow: 0 0 18px #0000001a; padding: 8px; border: 2px solid transparent; }
+.member:hover{ border-color: var(--db);}
+.member h3{ margin: 20px 0 5px; font-size: 24px; font-weight: 600;}
+.member p{ font-size: 16px;}
+.member ul{ gap: 50px; margin: 40px 0 65px;}
 
-.wrap-3{ background: var(--db); color: var(--white); padding: 50px 0;}
 
+
+.wrap-3{ background: var(--db); color: var(--white); padding: 60px 0;}
+.upper{ margin-bottom: 40px; }
+footer h3{ color: #92989F; font-size: 18px; font-weight: 600; margin-bottom: 23px;}
+footer a{ color: inherit;}
+footer li{ line-height: 40px; }
 
 
 @media screen and (max-width:1280px){
@@ -131,6 +142,7 @@ li.active .work-data{ display: flex; width: 100%; align-items: center; }
 .work-data img{ width: 248px;}
 .vert{ line-height: 40px;}
 .review{ padding: 30px 10px 0 10px}
+.member ul{gap: 30px;}
 }
 
 
@@ -145,7 +157,8 @@ nav{ display: none;}
 .accordion ul{flex-flow: column; }
 .vert{ writing-mode:horizontal-tb; width: 100%; line-height: 50px; height: auto; margin: 0 0 20px 0;}
 .accordion li.active{ flex-flow: column; }
-
+.member ul{gap: 15px;}
+.member h3{ font-size: 20px;}
 }
 
 @media screen and (max-width:460px){
@@ -156,4 +169,5 @@ nav{ display: none;}
 .col-p-12{ grid-column: span 12;}
 .work-data{ flex-flow: column;}
 .project{padding:0 15px }
+.lower .flex{ flex-flow: column; gap: 30px; }
 }
